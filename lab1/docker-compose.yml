@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: nginx
+    poets:
+      - "8000:80"
